@@ -4,7 +4,7 @@ export const Registration = ({ onNewGame }) => {
   const [p2, setP2] = useState('');
 
   return (
-    <div>
+    <div data-testid="registration">
       <input
         data-testid="p1-input"
         onChange={evt => setP1(evt.target.value)}
